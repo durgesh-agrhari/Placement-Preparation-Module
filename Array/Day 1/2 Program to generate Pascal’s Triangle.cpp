@@ -29,7 +29,7 @@ using namespace std;
 int main()
 {
 int i,j,k,n;     //declaring integer variables i,j,k for loops and r for number of rows
-cout<<"Enter the number of rows :\n";     //Asking user for input
+//cout<<"Enter the number of rows :\n";     //Asking user for input
 cin>>n;      //saving number of rows in variable r
 for(i=0;i<n;i++)    //outer loop for number of rows
    {
@@ -43,4 +43,36 @@ for(i=0;i<n;i++)    //outer loop for number of rows
        } 
     cout<<endl;     //printing newline
    }
+}
+
+/*
+ * C++ Program to Print Pascal's Triangle
+ */
+ 
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+    int rows;
+    //cout << "Enter the number of rows : ";
+    cin >> rows;
+    cout << endl;
+ 
+    for (int i = 0; i < rows; i++)
+    {
+        int val = 1;
+        for (int j = 1; j < (rows - i); j++)
+        {
+            cout << "   ";
+        }
+        for (int k = 0; k <= i; k++)
+        {
+            cout << "      " << val;
+            val = val * (i - k) / (k + 1);
+        }
+        cout << endl << endl;
+    }
+    cout << endl;
+    return 0;
 }

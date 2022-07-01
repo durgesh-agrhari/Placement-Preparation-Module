@@ -10,7 +10,7 @@ void setZeroes(vector < vector < int >> & matrix) {
         matrix[i][0] = 0;
         matrix[0][j] = 0;
       }
-    }
+    } 
   }
   //traversing in the reverse direction and
   //checking if the row or col has 0 or not

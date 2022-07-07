@@ -26,10 +26,19 @@ vector<int> find_missing_repeating(vector<int> array)
     return ans;
 }
 
+void show(<vector<int>> array, int n)
+{
+    for(int i=0; i<n; i++)
+    {
+
+    }
+}
 int main()
 {
     vector<int> array;
     array = {1, 2 , 3, 4 , 5 , 5 , 1};
     find_missing_repeating(array);
-
+    //cout<<find_missing_repeating(array);
+    int n= array.size();
+    show(array,n);
 }

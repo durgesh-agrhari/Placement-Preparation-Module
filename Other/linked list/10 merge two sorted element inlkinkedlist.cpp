@@ -120,12 +120,12 @@ int main()
     insertAtTail(head1,3);
     insertAtTail(head1,4);
     insertAtTail(head1,5);
+    display(head1);
     insertAtTail(head2,1);
     insertAtTail(head2,2);
     insertAtTail(head2,3);
     insertAtTail(head2,4);
     insertAtTail(head2,5);
-    display(head1);
     display(head2);
     cout<<endl;
 

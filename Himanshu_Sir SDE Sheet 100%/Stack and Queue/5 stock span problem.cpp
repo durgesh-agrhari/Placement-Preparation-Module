@@ -17,7 +17,7 @@ class Solution
       }
       else if (s.size()>0 && s.top()>arr[i]) // when there is element in stack and stack top is greater then array element 
       {
-        v.push_back(s.top()); // take stack top in the result vector 
+        v.push_back(i); // take stack top in the result vector 
       }
       else if (s.size()>0 && s.top()<=arr[i]) // when there is element in stack and that element is less then array element 
       {
@@ -31,7 +31,7 @@ class Solution
         }
         else
         {
-          v.push_back(s.top()); // else push stack top in the vector 
+          v.push_back(i); // else push stack top in the vector 
         }
       }
       s.push(arr[i]); // push array in stack

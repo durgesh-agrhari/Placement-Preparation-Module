@@ -15,7 +15,7 @@ int main()
     priority_queue<pair<int,int>> maxh;
     for(int i=0; i<n; i++)
     {
-        maxh.push({pair(arr[i]-x), arr[x]});
+        maxh.push({pair<arr[i]-x, arr[x]>});
         if(maxh.size() > k)
         {
             maxh.pop();

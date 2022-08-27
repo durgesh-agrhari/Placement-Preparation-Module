@@ -22,9 +22,7 @@ void getNthRoot(int n, int m) {
             high = mid; 
         }
     }
-    
-    cout <<n<<"th root of "<<m<<" is "<<low<<endl; 
-    
+    cout <<n<<"th root of "<<m<<" is "<<low<<endl;    
 }
 int main() {
 	int n=3, m=27; 

@@ -18,7 +18,7 @@ void dfs(int vertex, int par = 0){  //par = parent
 
 int main()
 {
-    int n;
+    int n;                 
     cin>>n;
     for(int i=0; i<n; i++){
         int v1,v2;
